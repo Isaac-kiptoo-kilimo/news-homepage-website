@@ -1,0 +1,60 @@
+
+:root {
+    --custom-white: #FEFDF9;
+    --bck-black: #00001A;
+    --custom-grey: #C6C4C8;
+    --pry-color: #F05E50;
+    --sec-color: #C7924C;
+    --txt-black: #00001D;
+    --txt-grey: #727073;
+    --Exbold: 800;
+    --bold: 700;
+    --regular: 400;
+    --section-padding: 6vh 2vw;
+  }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+ 
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
