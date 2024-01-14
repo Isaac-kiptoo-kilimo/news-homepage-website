@@ -57,4 +57,49 @@
   .hide {
     display: none;
   }
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr repeat(10, minmax(min-content, 110px)) 1fr;
+    background-color: var(--custom-white);
+    gap: 20px;
+  }
   
+  .main-header {
+    grid-column: 2 / 12;
+    padding: 0 calc(16px + 2vw);
+    margin-top: calc(32px + 2vh);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .main-header span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--bck-black);
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-main ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-main .hambuger {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+  }
